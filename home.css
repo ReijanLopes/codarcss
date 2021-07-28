@@ -1,0 +1,87 @@
+
+
+
+header{
+    grid-area: header;
+    padding: 10px 0 0 10px ;
+
+}
+
+
+.imageConteiner{
+    grid-area: left;
+}
+
+.imagem{
+    width: 90%;
+     
+  }
+
+  .inscreConteiner{
+    grid-area: right;
+    display: flex;
+    justify-content: center;
+}
+
+.areaClient{
+    
+    width: 36.3rem;
+    height: 44.4rem;
+    margin-top: 9.9rem;
+    
+}
+
+#home{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.5fr 8fr;
+    grid-template-areas:
+    "header header"
+    "left right";
+    
+}
+
+#room-id{
+    width: 36rem;
+    height: 4.8rem;
+    margin-top: 2.4rem;
+    border-radius: 8px;
+    border: var(--grey-blue) 2px solid;
+}
+
+.homeButton{
+    background-color: var(--blue);
+    border-radius: 8px;
+    width: 36rem;
+    height: 5rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeButton img{
+    margin-right: 4px;
+}
+
+.saparator{
+    color:var(--grey-blue);
+    font-size: 2rem;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    display: flex;
+    
+}
+
+.line{
+    width: 15.755rem;
+    border-top: 2px solid var(--grey-blue);
+    transform: translate(0, 50%);
+    margin-right: 2rem;
+    margin-left: 2rem;
+
+}
